@@ -15,9 +15,9 @@ namespace Repositories.Abstractions
 
         Task<long> CountAsync(CancellationToken cancellation = default);
 
-        Task<long> CountQueryAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellation = default);
+        Task<long> CountAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellation = default);
 
-        Task<long> CountQueryAsync(IRepositoryQuery<TEntity> query, CancellationToken cancellation = default);
+        Task<long> CountAsync(IRepositoryQuery<TEntity> query, CancellationToken cancellation = default);
 
         Task<TEntity> FindByIdAsync(TId id, CancellationToken cancellation = default);
 
