@@ -19,6 +19,8 @@ namespace Repositories.Abstractions
 
         Task<IEnumerable<TEntity>> QueryAsync(IRepositoryQuery<TEntity> query, CancellationToken cancellation = default);
 
+        Task<TEntity> QuerySingleAsync(IRepositoryQuery<TEntity> query, CancellationToken cancellation = default);
+
         Task RemoveAsync(TEntity entity, CancellationToken cancellation = default);
 
         Task RemoveRangeAsync(IEnumerable<TEntity> entities, CancellationToken cancellation = default);
