@@ -8,6 +8,6 @@ namespace Repositories.Abstractions
     {
         Expression<Func<TEntity, bool>> GetQuery();
 
-        IQueryable<TEntity> Hydrate(IQueryable<TEntity> entity);
+        IQueryable<TEntity> ProjectTo(IQueryable<TEntity> entity);
     }
 }
