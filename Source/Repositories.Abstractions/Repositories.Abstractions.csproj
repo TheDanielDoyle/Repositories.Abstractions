@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Repositories.Abstractions</RootNamespace>
     <Authors>Daniel P. Doyle</Authors>
     <Product>Repository Abstractions</Product>
     <PackageId>TheDanielDoyle.Repositories.Abstractions</PackageId>
     <Description>Abstractions for the repository pattern.</Description>
-    <Copyright>© 2022 Daniel P. Doyle</Copyright>
+    <Copyright>© 2024 Daniel P. Doyle</Copyright>
     <PackageProjectUrl>https://github.com/TheDanielDoyle/Repositories.Abstractions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TheDanielDoyle/Repositories.Abstractions</RepositoryUrl>
   </PropertyGroup>
